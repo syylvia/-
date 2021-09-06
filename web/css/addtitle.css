@@ -1,0 +1,49 @@
+#left-pilot{
+    width:184px;
+    float: left;
+    height: 300px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+#left-pilot li{
+    height:50px;
+    width:184px;
+    border:1px solid #e5e5e5;
+    font-size: 14px;
+    text-align: center;
+}
+#left-pilot li:hover{
+    color: red;
+}
+#left-pilot li a{
+    height:50px;
+    line-height: 50px;
+    width:184px;
+    display: block;
+    float: left;
+}
+.right-arrow{
+    display: block;
+    position: relative;
+    width:14px;
+    height: 14px;
+    margin-right: 18px;
+}
+.right-arrow::after{
+    display: block;
+    content: " ";
+    height: 7px;
+    width: 7px;
+    border-width: 0 1px 1px 0;
+    border-color: #2b7dc3;
+    border-style: solid;
+    transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+    position: absolute;
+    left: 150px;
+    top:-30px;
+    float: left;
+}
+
+
+
+

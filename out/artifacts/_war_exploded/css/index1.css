@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,li{
+    list-style: none;
+}
+#second{
+    width:100%;
+    height:390px;
+}
+/*#background{width:1171px;height: 350px;margin:0 auto}*/
+#container{width:1005px;height:350px;overflow: hidden;margin: 0 auto;}
+#photo{width:400%;animation: switch 8s steps(4) infinite;display:block; }
+#photo>img{margin:0 auto;width:100%;height:350px;display:block;}
+@keyframes switch {
+    to{ margin-left: -400%}
+}
+
+#hero{
+    width:100%;
+    height:369px;
+}
+#hero-con{
+    width:1000px;
+    height:369px;
+    margin: 0 auto;
+}
+#hero-hero{
+    height:31px;
+    width:1000px;
+    padding-top: 68px;
+    background: url("../img/3.png") no-repeat center bottom;
+}
+#hero-hero p{
+    line-height: 31px;
+    font-size: 37px;
+    color: #9f9f9f;
+    text-align: center;
+}
+#hero .hero1{
+    width:250px;
+    height:266px;
+    float: left;
+}
+.hero1 .title{
+    margin-top: 61px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.hero1 .title a{
+    color:black;
+}
+.hero1 .introduce{
+    margin-top: 20px;
+    color: #9f9f9f;
+    margin-left: 20px;
+}
+.hero1 .more{
+    border-radius: 7px;
+    color:white;
+    height:30px;
+    width:50px;
+    line-height: 20px;
+    margin-top: 20px;
+    background-color: red;
+    float: right;
+}
+.hero1 .more a{
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+#scene{
+    width:100%;
+    height:544px;
+    background-color:#f6f6f6;
+}
+#scene-con{
+    width:1000px;
+    height:544px;
+    margin: 0 auto;
+}
+#scene-title{
+    height:160px;
+    background: url("../img/3.png") no-repeat center 95px;
+}
+#scene-title p{
+    line-height: 31px;
+    font-size: 37px;
+    color: #9f9f9f;
+    text-align: center;
+    line-height: 160px;
+}
+.time1{
+    float:left;
+    width:200px;
+    height:186px;
+    font-size: 25px;
+    /*border: 5px solid;*/
+    /*border-color: transparent transparent transparent red ;*/
+    background: url("../img/line.png") no-repeat left ;
+}
+#scene-photo{
+    width:405px;
+    height:250px;
+    float: left;
+    background: white url("../img/jgs.jpeg") no-repeat;
+
+}
+#scene-con img{
+    display: block;
+    float: left;
+    margin-top:2px;
+}
+#scene-word{
+    width:320px;
+    height:385px;
+    float: right;
+}
+#scene-word h3{
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+#scene-word p{
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 24px;
+    text-indent: 2em;
+    margin-top: 15px;
+}
+#scene-more{
+    width:140px;
+    height:37px;
+    background-color: red;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+#scene-more a{
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 37px;
+}

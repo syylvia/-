@@ -1,0 +1,254 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*body {*/
+/*    font-family: sans-serif;*/
+/*    background: white;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.box{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*    width:400px;*/
+/*    padding: 40px;*/
+/*    background:rgba(0,0,0,.8);*/
+/*    box-sizing:border-box;*/
+/*    box-shadow:0 15px 25px rgba(0,0,0,.5);*/
+/*    border-radius: 10px;!*登录窗口边角圆滑*!*/
+/*}*/
+/*.box .inputBox*/
+/*{*/
+/*    position:relative;*/
+/*    width:320px;*/
+/*    height:66px;*/
+/*}*/
+/*.box .inputBox input*/
+/*{*/
+/*    width: 100%;*/
+/*    padding: 10px 0;*/
+/*    font-side:16px;*/
+/*    color: #fff;*/
+/*    letter-spacing: 1px;*/
+/*    margin-bottom:30px;!*输入框设置*!*/
+/*    border:none;*/
+/*    border-bottom:1px solid #fff;*/
+/*    outline:none;*/
+/*    background:transparent;*/
+/*}*/
+/*.lable1*/
+/*{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    padding: 10px 0;*/
+/*    font-size: 14px;*/
+/*    color: #fff;*/
+/*    pointer-events: none;*/
+/*    transition: .5s;*/
+/*}*/
+/*.lable2*/
+/*{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    padding: 10px 80px;*/
+/*    font-size: 14px;*/
+/*    color: #fff;*/
+/*    pointer-events: none;*/
+/*    transition: 0.5s;*/
+/*}*/
+/*.box .inputBox input:focus ~ label,*/
+/*.box .inputBox input:valid ~ label*/
+/*{*/
+/*    top: -18px;*/
+/*    left: 0;*/
+/*    color: #03a9f4;*/
+/*    font-size: 12px;*/
+/*}*/
+/*.box input[type="submit"]*/
+/*{*/
+/*    position:relative;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    color: #fff;*/
+/*    background: #03a9f4;*/
+/*    padding: 10px 20px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.input{*/
+/*    color: #ffffff;*/
+/*}*/
+/*h2 {*/
+/*    position:relative;*/
+/*    text-align: center;*/
+/*    margin-bottom: 10px;*/
+/*    color: #f0edf3;*/
+/*}*/
+/*b {*/
+/*    margin-left: 50px;*/
+/*    color: #FFEB3B;*/
+/*    font-size: 10px;*/
+/*    font-weight: initial;*/
+/*}*/
+/*.submit1 {*/
+/*    font-size: 14px;*/
+/*    color: white;*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*}*/
+/*.box .word{*/
+/*    margin-top:15px;*/
+/*    padding: 0;*/
+/*    font-size: 12px;*/
+/*    color: white;*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*}*/
+/*.word a {*/
+/*    color: aqua;*/
+/*    cursor: pointer;*/
+/*}*/
+/*#telCode{*/
+/*    font-size: 12px;*/
+/*    color: white;*/
+/*    width:90px;*/
+/*    height:30px;*/
+/*    border: 1px solid white;*/
+/*    text-align: center;*/
+/*    line-height: 30px;*/
+/*}*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: white;
+    background-size: cover;
+}
+
+.box{
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%,-50%);*/
+    width:400px;
+    padding: 40px;
+    background:rgba(255,255,255,.8);
+    box-sizing:border-box;
+    /*box-shadow:0 15px 25px rgba(0,0,0,.5);*/
+    border:1px solid #666;
+    border-radius: 10px;/*登录窗口边角圆滑*/
+    margin:5% 33.3% 5% 33.3%;
+}
+.box .inputBox
+{
+    position:relative;
+    width:320px;
+    height:66px;
+}
+.box .inputBox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-side:16px;
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom:30px;/*输入框设置*/
+    border:none;
+    border-bottom:1px solid black;
+    outline:none;
+    background:transparent;
+}
+.lable1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+.lable2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 80px;
+    font-size: 14px;
+    color: black;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+    top: -18px;
+    left: 0;
+    color: red;
+    font-size: 12px;
+}
+.box input[type="submit"]
+{
+    position:relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.input{
+    color: black;
+}
+h2 {
+    position:relative;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+b {
+    margin-left: 50px;
+    color: #FFEB3B;
+    font-size: 10px;
+    font-weight: initial;
+}
+.submit1 {
+    font-size: 14px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.box .word{
+    margin-top:15px;
+    padding: 0;
+    font-size: 12px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.word a {
+    color: red;
+    cursor: pointer;
+}
+#telCode{
+    font-size: 12px;
+    color: black;
+    width:90px;
+    height:30px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+}

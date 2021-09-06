@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+.layui-nav-item{
+    postion:relative;
+    line-height:30px;
+    vertical-align: middle;
+    font-size:14px;
+    float: right;
+}
+
+.layui-nav-item a{
+    display: block;
+    padding: 0 20px;
+    color:#c2c2c2;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+
+}
+.layui-nav-more{
+    content:'';
+    width:0;
+    height:0;
+    border-style: solid dashed dashed;
+    border-color: black transparent transparent;
+    overflow: hidden;
+    cursor:pointer;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    position: absolute;
+    top:12px;
+    right:0;
+    border-width: 6px;
+}
+.layui-nav-item:hover .layui-nav-child{
+    display: block;
+}
+.layui-nav-item:hover .layui-nav-more{
+
+}
+.layui-nav-child{
+    display:none;
+    position: absolute;;
+    right:10px;
+    top:35px;
+    line-height:36px;
+    padding:5px 0;
+    border:1px solid #d2d2d2;
+    background-color: #fff;
+    z-index:100;
+    border-radius: 2px;
+    white-space: nowrap;
+    width:160px;
+    text-align: center;
+}
+.layui-nav-item a{
+    /*border-right:2px solid #c5c5c5;*/
+    display: block;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.panel-heading a{
+    display:block;
+    font-size:15px;
+    color:#7f7f7f;
+    width:100px;
+    float: left;
+}

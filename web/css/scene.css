@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    display: block;
+}
+#carousel{
+    width:100%;
+    height:540px;
+    background-color: #f6f6f6
+}
+#carousel-con{
+    width:1170px;
+    height:540px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#photo{
+    width:300%;
+    animation: switch 6s steps(3) infinite;
+    display: block;
+}
+/*#photo img{*/
+/*    float: left;*/
+/*    display: block;*/
+/*}*/
+#photo #photo-title1{
+    width:1170px;
+    height:540px;
+    float: left;
+    background-image: url("../img/RuiJin.jpeg");
+}
+#photo #photo-title2{
+    width:1170px;
+    height:540px;
+    float: left;
+    background-image: url("../img/BaYi.jpeg");
+}
+#photo #photo-title3{
+    width:1170px;
+    height:540px;
+    float: left;
+    background-image: url("../img/JinGangShan.jpg");
+}
+#photo p{
+    display: block;
+    width:1170px;
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 440px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+@keyframes switch {
+    to{ margin-left: -300%}
+}
+#recommend{
+    width:100%;
+    height:620px;
+    margin-top:30px;
+}
+#recommend-con{
+    width:1170px;
+    height:620px;
+    margin: 0 auto;
+}
+#recommend-title{
+    width:1170px;
+    height:50px;
+}
+#recommend-title span{
+    border-bottom: 1px solid #e5e5e5;
+    display:inline-block;
+    width: 88%;
+    margin-left: 100px;
+}
+#recommend-photo{
+    width:1170px;
+    height:500px;
+}
+.photo-BY{
+    width:550px;
+    height:230px;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    margin-left:10px;
+}
+.photo-BY img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.photo-BY p{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+}
+.photo-small{
+    width:280px;
+    height:180px;
+    float: left;
+    margin-top:50px;
+    margin-right:10px;
+}
+.photo-small img{
+    width:100%;
+}
+.photo-small p{
+    margin-top: 10px;
+}
+.tp:hover~p{
+    color: red;
+}
+#morescene{
+    width:150px;
+    height:30px;
+    border:1px solid #e5e5e5;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+#morescene a{
+    color: black;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+#morescene :hover{
+background-color: red;
+    border-radius: 30px;
+}
+#morescene :hover a {
+color: white;
+}
+

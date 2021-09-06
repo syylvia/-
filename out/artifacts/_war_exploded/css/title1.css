@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+}
+textarea,input{
+    outline: none;
+}
+.comment{
+    width:964px;
+    margin:0 auto;
+    border-top:1px solid #c5c5c5;
+    min-height: 200px;
+}
+.comment h3{
+    margin-top:30px;
+}
+.comment .icon{
+    width:100px;
+    height:100px;
+    float: left;
+}
+.comment .icon img{
+    display: block;
+    width:50px;
+    height:50px;
+    margin:auto auto;
+    margin-top:25%;
+}
+.comment .text-area{
+    width:600px;
+    height:100px;
+    border-radius: 10px;
+    border-color:#c5c5c5 ;
+    float: left;
+    padding:5px;
+}
+.btn{
+    width:80px;
+    height:40px;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color:transparent;
+    margin-left:30px;
+    margin-top:30px;
+}
+.btn2{
+    width:80px;
+    height:40px;
+    background-color: lightblue;
+    border-radius: 30px;
+    border-color:transparent;
+    margin-left:30px;
+    margin-top:30px;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
